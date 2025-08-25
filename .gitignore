@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Environments
+.env
+.venv/
+env/
+venv/
+complaint/       # your venv folder
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs & cache
+logs/
+*.log
+*.out
+*.err
+*.DS_Store
+.cache/
+
+# Model checkpoints & large files
+results/
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# Dataset
+complaints.csv
+complaints.csv.zip
+*.parquet
+
+# IDE
+.vscode/
+.idea/
